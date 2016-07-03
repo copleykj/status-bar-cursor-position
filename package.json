@@ -1,0 +1,28 @@
+{
+  "name": "status-bar-cursor-position",
+  "main": "./cursor-position",
+  "version": "0.1.0",
+  "description": "Display the zero-based cursor position in the status bar",
+  "keywords": [
+    "caret",
+    "cursor-position",
+    "statusbar",
+    "character",
+    "count"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refkotay/status-bar-cursor-position.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
