@@ -5,7 +5,6 @@
   "description": "Display the zero-based cursor position in the status bar",
   "keywords": [
     "cursor position",
-    "status bar",
     "character count"
   ],
   "repository": {
