@@ -4,11 +4,9 @@
   "version": "0.2.0",
   "description": "Display the zero-based cursor position in the status bar",
   "keywords": [
-    "caret",
-    "cursor-position",
-    "statusbar",
-    "character",
-    "count"
+    "cursor position",
+    "status bar",
+    "character count"
   ],
   "repository": {
     "type": "git",
