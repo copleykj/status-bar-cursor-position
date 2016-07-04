@@ -1,7 +1,7 @@
 {
   "name": "status-bar-cursor-position",
   "main": "./main",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Zero-based cursor position in the status bar",
   "keywords": [
     "caret",
