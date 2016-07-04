@@ -1,7 +1,7 @@
 {
   "name": "status-bar-cursor-position",
   "main": "./cursor-position",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "description": "Zero-based cursor position in the status bar",
   "keywords": [
     "character count",
