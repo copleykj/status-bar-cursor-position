@@ -17,8 +17,8 @@ or by using the command line as shown below:
 ###### Thanks
 
 Based on the
-[statusbar-key-count package](https://atom.io/packages/statusbar-key-count),
-courtesy of [JChanceHud](https://atom.io/users/JChanceHud),
+[statusbar-key-count package](https://atom.io/packages/statusbar-key-count)
+(courtesy of [JChanceHud](https://atom.io/users/JChanceHud))
 which keeps count of your key presses throughout the day.
 
 Issues and contributions are welcome!
