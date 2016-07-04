@@ -12,6 +12,4 @@ module.exports = CursorPosition =
       @statusBarTile?.destroy()
 
    consumeStatusBar: (statusBar) ->
-      @statusBar = statusBar
-      @statusBarTile = @statusBar.addLeftTile
-         item: @cursorPositionView, priority: 50
+      @statusBarTile = statusBar.addLeftTile item: @cursorPositionView, priority: 50
