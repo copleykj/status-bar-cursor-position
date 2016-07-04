@@ -1,8 +1,9 @@
 
-class CursorPositionView extends HTMLElement
+module.exports = CursorPosition =
 
-   initialize: ->
-      @classList.add('cursor-position', 'inline-block')
+   activate: () ->
+      @div = document.createElement('div')
+      @div.style.display = 'inline-block'
       @subscribeToActiveTextEditor()
       @activeItemSubscription = atom.workspace.onDidChangeActivePaneItem (activeItem) =>
          @subscribeToActiveTextEditor()
@@ -14,11 +15,11 @@ class CursorPositionView extends HTMLElement
             @update editor
       else
          @cursorSubscription?.dispose()
-         @textContent = ''
+         @div.textContent = ''
 
    update: (editor) ->
       point = editor.getCursorBufferPosition()
-      @textContent = @pointToPosition point, editor.getText()
+      @div.textContent = @pointToPosition point, editor.getText()
 
    pointToPosition: ({row, column}, text) ->
       line = 0
@@ -30,8 +31,10 @@ class CursorPositionView extends HTMLElement
          position++
       return position + column
 
-   destroy: ->
-     @activeItemSubscription?.dispose()
-     @cursorSubscription?.dispose()
+   deacticate: ->
+      @activeItemSubscription?.dispose()
+      @cursorSubscription?.dispose()
+      @statusBarTile?.destroy()
 
-module.exports = document.registerElement('cursor-position', prototype: CursorPositionView.prototype, extends: 'div')
+   consumeStatusBar: (statusBar) ->
+      @statusBarTile = statusBar.addLeftTile item: @div, priority: 50

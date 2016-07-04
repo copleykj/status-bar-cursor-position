@@ -1,11 +1,11 @@
 {
   "name": "status-bar-cursor-position",
-  "main": "./cursor-position",
+  "main": "./main",
   "version": "0.6.1",
   "description": "Zero-based cursor position in the status bar",
   "keywords": [
-    "character count",
-    "caret"
+    "caret",
+    "character count"
   ],
   "repository": {
     "type": "git",
