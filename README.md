@@ -6,17 +6,18 @@ Shows the zero-based character count at the cursor's position, '940' in the pict
 
 Only visible while editing, just like other features in the status bar.
 
-##### Installation
+## Installation
 
 You can search for and install this package in Atom, or using command line:
 
 `apm install status-bar-cursor-position`
 
-##### Contributions
+## Contributions
 
-Issues and contributions are welcome.
+Issues, suggestions, and contributions are welcome.
+You can submit a PR or just post a helpful snippet in the issues section.
 
-##### License
+## MIT License
 
 <sub>
 Copyright (c) 2016 refkotay</br>
@@ -28,9 +29,9 @@ so, subject to the following conditions:</br>
 </br>
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</br>
 </br>
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED</br>
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT</br>
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION</br>
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE</br>
-OR OTHER DEALINGS IN THE SOFTWARE.
+The Software is provided "as is", without warranty of any kind, express or implied, including but not limited</br>
+to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event</br>
+shall the authors or copyright holders be liable for any claim, damages or other liabilty, whether in an action</br>
+of contract, tort or otherwise, arising from, out of or in connection with the Software or the use</br>
+or other dealings in the Software.
 </sub>

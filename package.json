@@ -1,6 +1,6 @@
 {
   "name": "status-bar-cursor-position",
-  "main": "./main",
+  "main": "./status-bar-cursor-position",
   "version": "0.7.0",
   "description": "Zero-based cursor position in the status bar",
   "keywords": [
@@ -21,5 +21,28 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
+  },
+  "readme": "# status-bar-cursor-position\n\nShows the zero-based character count at the cursor's position, '940' in the picture below.\n\n![The cursor is shown at position 940](https://raw.githubusercontent.com/refkotay/refkotay-images/master/cursor-position.png \"The cursor is shown at position 940\")\n\nOnly visible while editing, just like other features in the status bar.\n\n##### Installation\n\nYou can search for and install this package in Atom, or using command line:\n\n`apm install status-bar-cursor-position`\n\n##### Contributions\n\nIssues and contributions are welcome.\n\n##### License\n\n<sub>\nCopyright (c) 2016 refkotay</br>\n</br>\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files</br>\n(the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,</br>\npublish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do</br>\nso, subject to the following conditions:</br>\n</br>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</br>\n</br>\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED</br>\nTO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT</br>\nSHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION</br>\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE</br>\nOR OTHER DEALINGS IN THE SOFTWARE.\n</sub>",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/refkotay/status-bar-cursor-position/issues"
+  },
+  "homepage": "https://github.com/refkotay/status-bar-cursor-position#readme",
+  "_id": "status-bar-cursor-position@0.7.0",
+  "_shasum": "7cb0b64aaf076206145c6c896c6255f4ed626d86",
+  "_resolved": "file:../d-116613-13613-1bvww1y/package.tgz",
+  "_from": "../d-116613-13613-1bvww1y/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "main.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
