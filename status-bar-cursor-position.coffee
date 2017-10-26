@@ -10,20 +10,16 @@ module.exports = CursorPosition =
 
    subscribeToActiveTextEditor: ->
       if editor = atom.workspace.getActiveTextEditor()
-         @lines = editor.buffer.lines
-         @lineEndings = editor.buffer.lineEndings
-         @update editor
+         buffer = editor.buffer
+         @update editor, buffer
          @cursorSubscription = editor.onDidChangeCursorPosition () =>
-            @update editor
+            @update editor, buffer
       else
          @cursorSubscription?.dispose()
          @div.textContent = ''
 
-   update: (editor) ->
-      {row, column} = editor.getCursorBufferPosition()
-      @div.textContent = @lines.slice(0, row).join('').length +
-                         @lineEndings.slice(0, row).join('').length +
-                         column
+   update: (editor, buffer) ->
+      @div.textContent = buffer.characterIndexForPosition(editor.getCursorBufferPosition())
 
    deactivate: ->
       @activeItemSubscription?.dispose()
